@@ -1,0 +1,24 @@
+{
+  "name": "<your repo name>",
+  "description": "<describe>",
+  "parameters": [
+    {
+      "regexes": [
+        "^[0-9]+$"
+      ],
+      "name": "min_size",
+      "helpText": "<describe>",
+      "label": "<describe>",
+      "isOptional": true
+    },
+    {
+      "regexes": [
+        "^0(.[0-9]+)?$"
+      ],
+      "name": "threshold",
+      "helpText": "<describe>",
+      "label": "<describe>",
+      "isOptional": true
+    }
+  ]
+}
